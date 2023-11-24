@@ -9,6 +9,7 @@ import thunk from 'redux-thunk';
 
 import { reducers } from './reducers'
 import App from './App';
+import './index.css';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
